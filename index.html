@@ -219,6 +219,21 @@ null == undefined  // true
 <div class=little-console></div>
 </section>
 
+<!-------- chapter: minimal style guide ----------------->
+
+<section data-markdown><script type="text/template">
+## Language rules 
+
+* <span style="color: green">always</span>
+ - `var`
+ - `;`
+* <span style="color: red">no</span>
+ - `eval,with`
+ - modification of builtin Objects (`Object.prototype`)
+* <span style="color:orange">use sparingly</span>
+ - `for-in` (only for map/hash/associative arrays)
+ - `this` (constructor, methods assignment)
+</script></section>
 
 
 <section data-markdown><script type="text/template">
